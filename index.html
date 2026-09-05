@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transaction Risk Investigation Assistant</title>
+<style>
+  :root {
+    --bg: #0b0f19;
+    --panel: #131a29;
+    --panel-2: #1a2336;
+    --border: #232d43;
+    --accent: #4f8ff0;
+    --accent-soft: rgba(79,143,240,0.12);
+    --danger: #f0625c;
+    --danger-soft: rgba(240,98,92,0.12);
+    --ok: #3fc98a;
+    --ok-soft: rgba(63,201,138,0.12);
+    --warn: #f0b84f;
+    --text: #eef1f8;
+    --muted: #8b93a7;
+    --mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 14px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 28px;
+    border-bottom: 1px solid var(--border);
+    background: linear-gradient(180deg, #10182a 0%, #0b0f19 100%);
+  }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand-mark {
+    width: 34px; height: 34px; border-radius: 9px;
+    background: linear-gradient(135deg, var(--accent), #7b5cf0);
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 15px; color: white;
+  }
+  header h1 { font-size: 15px; margin: 0; font-weight: 600; }
+  header p { margin: 0; color: var(--muted); font-size: 12px; }
+  .env-tag {
+    font-size: 11px; color: var(--muted); border: 1px solid var(--border);
+    padding: 4px 10px; border-radius: 20px; letter-spacing: 0.03em;
+  }
+  .layout { display: flex; height: calc(100vh - 65px); }
+
+  .sidebar { width: 280px; border-right: 1px solid var(--border); overflow-y: auto; background: #0d1320; }
+  .sidebar-head { padding: 14px 18px 8px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+  .customer {
+    padding: 13px 18px; cursor: pointer; border-bottom: 1px solid #161e30;
+    display: flex; align-items: center; gap: 11px; transition: background 0.12s;
+  }
+  .customer:hover { background: #141c2d; }
+  .customer.active { background: var(--accent-soft); border-left: 3px solid var(--accent); padding-left: 15px; }
+  .status-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+  .status-dot.clean { background: var(--ok); box-shadow: 0 0 8px rgba(63,201,138,0.5); }
+  .status-dot.flagged { background: var(--danger); box-shadow: 0 0 8px rgba(240,98,92,0.5); }
+  .customer .name { font-weight: 600; font-size: 13.5px; }
+  .customer .meta { font-size: 11.5px; color: var(--muted); margin-top: 2px; }
+
+  .main { flex: 1; overflow-y: auto; padding: 26px 34px 60px; }
+  .placeholder { color: var(--muted); padding: 60px; text-align: center; font-size: 13px; }
+
+  .case-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px; }
+  .case-header h2 { margin: 0 0 4px; font-size: 21px; }
+  .case-header .sub { color: var(--muted); font-size: 12.5px; font-family: var(--mono); }
+
+  .badge { display: inline-flex; align-items: center; gap: 6px; padding: 5px 13px; border-radius: 20px; font-size: 12px; font-weight: 700; letter-spacing: 0.02em; }
+  .badge.attn { background: var(--danger-soft); color: var(--danger); }
+  .badge.clean { background: var(--ok-soft); color: var(--ok); }
+  .badge::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+
+  .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 22px; }
+  .stat-card {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    padding: 16px 18px;
+  }
+  .stat-card .label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; }
+  .stat-card .value { font-size: 22px; font-weight: 700; }
+  .stat-card .value.danger { color: var(--danger); }
+  .stat-card .value.ok { color: var(--ok); }
+
+  .panel-row { display: grid; grid-template-columns: 1.1fr 1fr; gap: 16px; margin-bottom: 22px; }
+  .card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; }
+  .card h3 { margin: 0 0 14px; font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+
+  .gauge-wrap { display: flex; align-items: center; gap: 22px; }
+  .gauge-label .big { font-size: 26px; font-weight: 700; }
+  .gauge-label .desc { font-size: 12px; color: var(--muted); margin-top: 2px; max-width: 220px; }
+
+  .finding-card {
+    background: var(--panel-2); border-left: 3px solid var(--accent); border-radius: 8px;
+    padding: 13px 16px; margin-bottom: 10px;
+  }
+  .finding-card .rule-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+  .finding-card .rule { font-weight: 700; font-size: 12.5px; color: var(--accent); text-transform: uppercase; letter-spacing: 0.03em; }
+  .finding-card .detail { font-size: 13px; color: var(--text); line-height: 1.5; }
+  .finding-card .txns { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .txn-chip { font-family: var(--mono); font-size: 10.5px; background: #0d1320; border: 1px solid var(--border); padding: 3px 8px; border-radius: 5px; color: var(--muted); }
+  .txn-chip.hot { border-color: var(--danger); color: var(--danger); }
+
+  .narrative {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    padding: 20px 22px; margin-bottom: 22px; white-space: pre-wrap; line-height: 1.6; font-size: 13.5px;
+  }
+  .narrative .h { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; }
+  .source-tag { font-size: 11px; color: var(--muted); margin-top: 14px; display: block; border-top: 1px solid var(--border); padding-top: 10px; }
+
+  .table-toolbar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+  .toggle-btn {
+    background: var(--panel-2); border: 1px solid var(--border); color: var(--text);
+    padding: 6px 13px; border-radius: 7px; font-size: 12px; cursor: pointer;
+  }
+  .toggle-btn.active { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+
+  table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  thead th { text-align: left; color: var(--muted); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; padding: 8px 10px; border-bottom: 1px solid var(--border); }
+  tbody td { padding: 9px 10px; border-bottom: 1px solid #161e30; }
+  tbody tr.flagged { background: var(--danger-soft); }
+  tbody tr.flagged td:first-child { border-left: 2px solid var(--danger); }
+  .amount { font-family: var(--mono); text-align: right; }
+  .txn-id { font-family: var(--mono); color: var(--muted); font-size: 11px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <div class="brand-mark">TR</div>
+    <div>
+      <h1>Transaction Risk Investigation Assistant</h1>
+      <p>Fraud desk · PS06</p>
+    </div>
+  </div>
+  <div class="env-tag" id="envTag">rule engine online</div>
+</header>
+<div class="layout">
+  <div class="sidebar">
+    <div class="sidebar-head">Customers</div>
+    <div id="sidebar"></div>
+  </div>
+  <div class="main" id="main"><div class="placeholder">Select a customer to run the rule engine and generate an investigation report.</div></div>
+</div>
+
+<script>
+let currentReport = null;
+let showFlaggedOnly = false;
+
+async function loadCustomers() {
+  const res = await fetch('/api/customers');
+  const customers = await res.json();
+  const sidebar = document.getElementById('sidebar');
+  sidebar.innerHTML = '';
+  customers.forEach(c => {
+    const div = document.createElement('div');
+    div.className = 'customer';
+    div.id = 'row-' + c.customer_id;
+    const dotClass = c.needs_attention ? 'flagged' : 'clean';
+    div.innerHTML = `
+      <div class="status-dot ${dotClass}"></div>
+      <div>
+        <div class="name">${c.name}</div>
+        <div class="meta">${c.customer_id} · ${c.num_txns} txns${c.needs_attention ? ' · ' + c.num_findings + ' finding(s)' : ''}</div>
+      </div>`;
+    div.onclick = () => investigate(c.customer_id);
+    sidebar.appendChild(div);
+  });
+}
+
+function riskLevel(numFindings) {
+  if (numFindings === 0) return { label: 'LOW', color: 'var(--ok)', pct: 8 };
+  if (numFindings <= 2) return { label: 'MODERATE', color: 'var(--warn)', pct: 45 };
+  return { label: 'HIGH', color: 'var(--danger)', pct: 85 };
+}
+
+function gaugeSvg(pct, color) {
+  const circumference = Math.PI * 54;
+  const offset = circumference * (1 - pct / 100);
+  return `
+  <svg width="130" height="76" viewBox="0 0 128 76">
+    <path d="M 10 64 A 54 54 0 0 1 118 64" fill="none" stroke="#1a2336" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 10 64 A 54 54 0 0 1 118 64" fill="none" stroke="${color}" stroke-width="10" stroke-linecap="round"
+      stroke-dasharray="${circumference}" stroke-dashoffset="${offset}"/>
+  </svg>`;
+}
+
+function sparklineSvg(history) {
+  const amounts = history.slice(-40).map(t => t.amount);
+  if (amounts.length < 2) return '';
+  const max = Math.max(...amounts), min = Math.min(...amounts);
+  const w = 560, h = 120, pad = 6;
+  const bw = (w - pad * 2) / amounts.length;
+  let bars = '';
+  amounts.forEach((a, i) => {
+    const bh = Math.max(3, ((a - min) / (max - min || 1)) * (h - 20));
+    const x = pad + i * bw;
+    const y = h - bh;
+    const flagged = a === max && max > (min * 3);
+    bars += `<rect x="${x}" y="${y}" width="${Math.max(2, bw - 2)}" height="${bh}" fill="${flagged ? 'var(--danger)' : 'var(--accent)'}" opacity="0.85" rx="1.5"/>`;
+  });
+  return `<svg width="100%" height="${h}" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">${bars}</svg>`;
+}
+
+async function investigate(customerId) {
+  document.querySelectorAll('.customer').forEach(el => el.classList.remove('active'));
+  document.getElementById('row-' + customerId).classList.add('active');
+  const main = document.getElementById('main');
+  main.innerHTML = '<div class="placeholder">Running rule engine and generating report…</div>';
+  showFlaggedOnly = false;
+
+  const res = await fetch('/api/investigate/' + customerId);
+  const r = await res.json();
+  if (r.error) { main.innerHTML = `<div class="placeholder">Error: ${r.error}</div>`; return; }
+  currentReport = r;
+  render();
+}
+
+function render() {
+  const r = currentReport;
+  const main = document.getElementById('main');
+  const risk = riskLevel(r.num_findings);
+  const flaggedSet = new Set(r.flagged_txn_ids);
+
+  const badge = r.needs_attention
+    ? `<span class="badge attn">NEEDS ATTENTION</span>`
+    : `<span class="badge clean">CLEAN</span>`;
+
+  let findingsHtml = r.findings.map(f => `
+    <div class="finding-card">
+      <div class="rule-row">
+        <span class="rule">${f.rule.replace(/_/g, ' ')}</span>
+      </div>
+      <div class="detail">${f.detail}</div>
+      <div class="txns">${f.txn_ids.map(id => `<span class="txn-chip hot">${id}</span>`).join('')}</div>
+    </div>`).join('') || `<p style="color:var(--muted); font-size:13px;">No rule matched any transaction in this history.</p>`;
+
+  const rowsToShow = showFlaggedOnly ? r.history.filter(t => flaggedSet.has(t.txn_id)) : r.history.slice().reverse();
+  const tableRows = rowsToShow.map(t => `
+    <tr class="${flaggedSet.has(t.txn_id) ? 'flagged' : ''}">
+      <td class="txn-id">${t.txn_id}</td>
+      <td>${new Date(t.date).toLocaleString()}</td>
+      <td>${t.payee}</td>
+      <td>${t.channel}</td>
+      <td>${t.category}</td>
+      <td class="amount">₹${t.amount.toLocaleString(undefined, {minimumFractionDigits:2})}</td>
+    </tr>`).join('');
+
+  main.innerHTML = `
+    <div class="case-header">
+      <div>
+        <h2>${r.customer_name}</h2>
+        <div class="sub">${r.customer_id}</div>
+      </div>
+      ${badge}
+    </div>
+
+    <div class="grid">
+      <div class="stat-card"><div class="label">Transactions Reviewed</div><div class="value">${r.baseline_summary.history_size}</div></div>
+      <div class="stat-card"><div class="label">Flagged Transactions</div><div class="value ${r.flagged_txn_ids.length ? 'danger' : 'ok'}">${r.flagged_txn_ids.length}</div></div>
+      <div class="stat-card"><div class="label">Rules Triggered</div><div class="value ${r.num_findings ? 'danger' : 'ok'}">${r.num_findings}</div></div>
+      <div class="stat-card"><div class="label">Avg. Transaction</div><div class="value">₹${r.baseline_summary.mean_amount.toLocaleString()}</div></div>
+    </div>
+
+    <div class="panel-row">
+      <div class="card">
+        <h3>Risk Level</h3>
+        <div class="gauge-wrap">
+          ${gaugeSvg(risk.pct, risk.color)}
+          <div class="gauge-label">
+            <div class="big" style="color:${risk.color}">${risk.label}</div>
+            <div class="desc">Based on ${r.num_findings} rule trigger(s) against this customer's own transaction baseline.</div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Recent Transaction Amounts</h3>
+        ${sparklineSvg(r.history)}
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom:22px;">
+      <h3>Findings</h3>
+      ${findingsHtml}
+    </div>
+
+    <div class="narrative">
+      <div class="h">Investigation Narrative</div>
+      ${r.narrative}
+      <span class="source-tag">narrative source: ${r.narrative_source}</span>
+    </div>
+
+    <div class="card">
+      <div class="table-toolbar">
+        <h3 style="margin:0;">Transaction Ledger</h3>
+        <div>
+          <button class="toggle-btn ${!showFlaggedOnly ? 'active' : ''}" onclick="setFilter(false)">All</button>
+          <button class="toggle-btn ${showFlaggedOnly ? 'active' : ''}" onclick="setFilter(true)">Flagged only</button>
+        </div>
+      </div>
+      <table>
+        <thead><tr><th>Txn ID</th><th>Date</th><th>Payee</th><th>Channel</th><th>Category</th><th style="text-align:right">Amount</th></tr></thead>
+        <tbody>${tableRows || '<tr><td colspan="6" style="text-align:center;color:var(--muted);padding:20px;">No flagged transactions</td></tr>'}</tbody>
+      </table>
+    </div>
+  `;
+}
+
+function setFilter(flaggedOnly) {
+  showFlaggedOnly = flaggedOnly;
+  render();
+}
+
+loadCustomers();
+</script>
+</body>
+</html>

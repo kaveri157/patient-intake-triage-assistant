@@ -1,0 +1,5648 @@
+[
+  {
+    "customer_id": "CUST-1001",
+    "name": "Sana Reddy",
+    "history": [
+      {
+        "txn_id": "CUST-1001-T0001",
+        "date": "2025-05-01T12:43:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 1643.64,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1001-T0002",
+        "date": "2025-05-05T12:32:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 2345.29,
+        "channel": "NEFT",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0003",
+        "date": "2025-05-06T12:55:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 1097.49,
+        "channel": "UPI",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1001-T0004",
+        "date": "2025-05-06T13:09:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 1633.0,
+        "channel": "POS",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1001-T0005",
+        "date": "2025-05-07T10:16:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 1195.12,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1001-T0006",
+        "date": "2025-05-07T15:05:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 1873.38,
+        "channel": "NEFT",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1001-T0007",
+        "date": "2025-05-08T18:42:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 1570.71,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1001-T0008",
+        "date": "2025-05-09T10:24:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 1686.39,
+        "channel": "ATM",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0009",
+        "date": "2025-05-10T14:59:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 1604.14,
+        "channel": "ONLINE",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1001-T0010",
+        "date": "2025-05-11T11:29:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 1900.45,
+        "channel": "NEFT",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0011",
+        "date": "2025-05-12T21:02:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 1561.59,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1001-T0012",
+        "date": "2025-05-13T18:56:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 1126.36,
+        "channel": "UPI",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1001-T0013",
+        "date": "2025-05-14T11:35:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 1463.11,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1001-T0014",
+        "date": "2025-05-14T18:25:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 1893.38,
+        "channel": "ONLINE",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1001-T0015",
+        "date": "2025-05-15T10:09:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 1537.89,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1001-T0016",
+        "date": "2025-05-15T15:24:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 457.53,
+        "channel": "NEFT",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1001-T0017",
+        "date": "2025-05-18T21:27:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 1338.43,
+        "channel": "POS",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1001-T0018",
+        "date": "2025-05-19T17:48:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 1302.27,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1001-T0019",
+        "date": "2025-05-20T19:23:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 1150.75,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1001-T0020",
+        "date": "2025-05-21T16:01:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 1483.17,
+        "channel": "ATM",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0021",
+        "date": "2025-05-23T18:31:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 1709.95,
+        "channel": "ONLINE",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0023",
+        "date": "2025-05-24T12:44:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 2294.45,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1001-T0022",
+        "date": "2025-05-24T17:10:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 1427.31,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1001-T0024",
+        "date": "2025-05-25T16:57:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 1119.51,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0025",
+        "date": "2025-05-26T10:14:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 1132.35,
+        "channel": "POS",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1001-T0026",
+        "date": "2025-05-28T10:57:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 2095.03,
+        "channel": "POS",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1001-T0027",
+        "date": "2025-05-29T13:08:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1322.32,
+        "channel": "UPI",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0029",
+        "date": "2025-05-30T15:55:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 1170.75,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1001-T0028",
+        "date": "2025-05-30T21:26:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-1",
+        "amount": 1181.67,
+        "channel": "POS",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1001-T0030",
+        "date": "2025-05-31T21:55:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 1928.35,
+        "channel": "ONLINE",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0032",
+        "date": "2025-06-01T09:41:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 1699.97,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1001-T0031",
+        "date": "2025-06-01T11:15:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 1125.85,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1001-T0033",
+        "date": "2025-06-02T11:55:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 999.45,
+        "channel": "ONLINE",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1001-T0034",
+        "date": "2025-06-04T13:59:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 1833.71,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1001-T0035",
+        "date": "2025-06-04T20:45:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-2",
+        "amount": 2168.52,
+        "channel": "ONLINE",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1001-T0036",
+        "date": "2025-06-05T09:37:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 1480.77,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1001-T0037",
+        "date": "2025-06-07T17:03:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 2065.04,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1001-T0038",
+        "date": "2025-06-07T18:04:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 1186.53,
+        "channel": "POS",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1001-T0039",
+        "date": "2025-06-08T18:26:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 895.23,
+        "channel": "NEFT",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1001-T0040",
+        "date": "2025-06-09T12:42:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 1091.66,
+        "channel": "ATM",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1001-T0041",
+        "date": "2025-06-10T19:59:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 1145.72,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1001-T0042",
+        "date": "2025-06-13T17:16:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 1040.29,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0043",
+        "date": "2025-06-14T13:45:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 2044.72,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1001-T0044",
+        "date": "2025-06-15T19:06:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 2332.07,
+        "channel": "POS",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1001-T0045",
+        "date": "2025-06-16T13:21:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 1428.43,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1001-T0046",
+        "date": "2025-06-17T09:05:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 1853.92,
+        "channel": "POS",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1001-T0047",
+        "date": "2025-06-18T21:10:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 2498.45,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1001-T0048",
+        "date": "2025-06-22T17:02:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 2574.27,
+        "channel": "NEFT",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0049",
+        "date": "2025-06-23T11:59:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 1982.87,
+        "channel": "ONLINE",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1001-T0050",
+        "date": "2025-06-23T12:42:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 1629.91,
+        "channel": "NEFT",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1001-T0052",
+        "date": "2025-06-24T11:47:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 302.71,
+        "channel": "ONLINE",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1001-T0051",
+        "date": "2025-06-24T18:15:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-2",
+        "amount": 1496.07,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1001-T0053",
+        "date": "2025-06-25T21:02:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-2",
+        "amount": 1344.63,
+        "channel": "ONLINE",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1001-T0055",
+        "date": "2025-06-26T12:04:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 1159.16,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1001-T0054",
+        "date": "2025-06-26T14:19:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-2",
+        "amount": 1008.43,
+        "channel": "POS",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1001-T0056",
+        "date": "2025-06-27T09:07:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 1752.69,
+        "channel": "NEFT",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1001-T0058",
+        "date": "2025-06-30T12:16:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 1048.62,
+        "channel": "POS",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1001-T0057",
+        "date": "2025-06-30T14:38:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 1438.78,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1001-T0059",
+        "date": "2025-07-01T14:58:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 337.16,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1001-T0060",
+        "date": "2025-07-03T17:19:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 2035.66,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1001-T0061",
+        "date": "2025-07-04T17:24:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 1882.14,
+        "channel": "NEFT",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1001-T0063",
+        "date": "2025-07-05T15:20:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-4",
+        "amount": 1659.79,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1001-T0062",
+        "date": "2025-07-05T17:53:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 1893.29,
+        "channel": "ATM",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0064",
+        "date": "2025-07-06T17:30:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-1",
+        "amount": 800.84,
+        "channel": "ATM",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1001-T0065",
+        "date": "2025-07-07T10:43:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 1864.95,
+        "channel": "ONLINE",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0066",
+        "date": "2025-07-10T16:39:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 704.06,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1001-T0067",
+        "date": "2025-07-11T20:15:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-1",
+        "amount": 1297.22,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1001-T0069",
+        "date": "2025-07-12T12:08:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 1731.95,
+        "channel": "NEFT",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1001-T0068",
+        "date": "2025-07-12T12:11:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 921.37,
+        "channel": "POS",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1001-T0070",
+        "date": "2025-07-13T21:57:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 1367.64,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1001-T0071",
+        "date": "2025-07-14T11:16:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 1476.26,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1001-T0072",
+        "date": "2025-07-14T19:15:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 904.77,
+        "channel": "POS",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1001-T0073",
+        "date": "2025-07-15T12:34:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 1437.32,
+        "channel": "ONLINE",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0075",
+        "date": "2025-07-16T14:13:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-4",
+        "amount": 975.08,
+        "channel": "NEFT",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1001-T0074",
+        "date": "2025-07-16T20:09:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-1",
+        "amount": 1956.54,
+        "channel": "UPI",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1001-T0077",
+        "date": "2025-07-18T15:51:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 669.37,
+        "channel": "UPI",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0076",
+        "date": "2025-07-18T16:00:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 1356.0,
+        "channel": "UPI",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1001-T0078",
+        "date": "2025-07-19T15:31:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 1296.6,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1001-T0080",
+        "date": "2025-07-20T18:36:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 2007.32,
+        "channel": "UPI",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0079",
+        "date": "2025-07-20T20:08:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1799.83,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1001-T0081",
+        "date": "2025-07-21T11:13:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 1987.19,
+        "channel": "ATM",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1001-T0082",
+        "date": "2025-07-21T15:17:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 1659.26,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1001-T0083",
+        "date": "2025-07-24T12:41:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 962.67,
+        "channel": "ONLINE",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0084",
+        "date": "2025-07-26T12:08:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 759.03,
+        "channel": "NEFT",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0086",
+        "date": "2025-07-27T10:37:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 2003.33,
+        "channel": "NEFT",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1001-T0085",
+        "date": "2025-07-27T20:38:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 1480.24,
+        "channel": "ONLINE",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1001-T0087",
+        "date": "2025-07-28T15:37:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-1",
+        "amount": 1825.74,
+        "channel": "ATM",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1001-T0088",
+        "date": "2025-07-28T19:38:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 1374.5,
+        "channel": "POS",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1001-T0090",
+        "date": "2025-07-29T15:23:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-2",
+        "amount": 1952.95,
+        "channel": "UPI",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0089",
+        "date": "2025-07-29T19:21:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 1071.58,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1001-T0091",
+        "date": "2025-07-30T18:30:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-4",
+        "amount": 1733.35,
+        "channel": "NEFT",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1001-T0092",
+        "date": "2025-07-31T12:53:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 890.56,
+        "channel": "UPI",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0094",
+        "date": "2025-08-01T12:22:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 1172.52,
+        "channel": "ATM",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1001-T0093",
+        "date": "2025-08-01T18:01:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 1105.82,
+        "channel": "ONLINE",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1001-T0095",
+        "date": "2025-08-02T17:05:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 2774.29,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1001-T0096",
+        "date": "2025-08-03T20:30:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-4",
+        "amount": 1581.39,
+        "channel": "POS",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1001-T0097",
+        "date": "2025-08-04T12:42:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 1176.59,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1001-T0098",
+        "date": "2025-08-05T15:47:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 1721.57,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1001-T0099",
+        "date": "2025-08-06T13:46:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 1367.61,
+        "channel": "POS",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1001-T0100",
+        "date": "2025-08-06T17:48:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-2",
+        "amount": 1856.28,
+        "channel": "ONLINE",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1001-T0102",
+        "date": "2025-08-07T12:18:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 79.51,
+        "channel": "ONLINE",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1001-T0101",
+        "date": "2025-08-07T13:33:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 1271.22,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1001-T0103",
+        "date": "2025-08-09T13:18:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 1668.67,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1001-T0104",
+        "date": "2025-08-11T16:30:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 1549.6,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1001-T0105",
+        "date": "2025-08-12T16:31:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 1645.51,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0106",
+        "date": "2025-08-13T21:36:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 1626.8,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1001-T0108",
+        "date": "2025-08-14T13:55:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 1086.12,
+        "channel": "ATM",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1001-T0107",
+        "date": "2025-08-14T18:49:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 900.17,
+        "channel": "UPI",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1001-T0109",
+        "date": "2025-08-17T19:10:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-2",
+        "amount": 1687.07,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1001-T0110",
+        "date": "2025-08-18T09:26:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 2248.59,
+        "channel": "UPI",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1001-T0111",
+        "date": "2025-08-20T13:29:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 1281.44,
+        "channel": "ATM",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1001-T0112",
+        "date": "2025-08-21T15:07:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 711.69,
+        "channel": "ONLINE",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1001-T0113",
+        "date": "2025-08-22T10:38:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 2366.64,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1001-T0115",
+        "date": "2025-08-23T16:56:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 844.71,
+        "channel": "NEFT",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1001-T0114",
+        "date": "2025-08-23T20:19:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 1840.85,
+        "channel": "NEFT",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1001-T0116",
+        "date": "2025-08-26T19:53:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1770.18,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1001-T0117",
+        "date": "2025-08-27T18:30:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 2354.12,
+        "channel": "ATM",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1001-T0119",
+        "date": "2025-08-28T15:54:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 1109.15,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1001-T0118",
+        "date": "2025-08-28T19:52:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 1720.63,
+        "channel": "UPI",
+        "category": "dining"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-1002",
+    "name": "Sana Iyer",
+    "history": [
+      {
+        "txn_id": "CUST-1002-T0001",
+        "date": "2025-05-01T10:20:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 1741.77,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1002-T0002",
+        "date": "2025-05-01T15:00:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 1718.19,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0003",
+        "date": "2025-05-02T17:23:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 611.57,
+        "channel": "UPI",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1002-T0004",
+        "date": "2025-05-04T13:28:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 283.04,
+        "channel": "POS",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0005",
+        "date": "2025-05-05T20:10:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 907.02,
+        "channel": "POS",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1002-T0006",
+        "date": "2025-05-06T10:07:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 1327.58,
+        "channel": "ONLINE",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1002-T0007",
+        "date": "2025-05-06T20:18:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 1995.85,
+        "channel": "UPI",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1002-T0009",
+        "date": "2025-05-07T11:55:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 1731.29,
+        "channel": "UPI",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1002-T0008",
+        "date": "2025-05-07T16:24:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 1220.94,
+        "channel": "NEFT",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0010",
+        "date": "2025-05-08T09:37:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 1127.54,
+        "channel": "ONLINE",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1002-T0012",
+        "date": "2025-05-09T14:15:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 2006.1,
+        "channel": "ONLINE",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1002-T0011",
+        "date": "2025-05-09T14:21:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1546.2,
+        "channel": "UPI",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1002-T0013",
+        "date": "2025-05-10T09:20:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-4",
+        "amount": 337.27,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0014",
+        "date": "2025-05-10T21:31:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 1707.88,
+        "channel": "NEFT",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1002-T0015",
+        "date": "2025-05-11T10:55:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 133.72,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1002-T0016",
+        "date": "2025-05-13T15:04:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 1965.97,
+        "channel": "ATM",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1002-T0017",
+        "date": "2025-05-14T19:05:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 393.84,
+        "channel": "UPI",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1002-T0018",
+        "date": "2025-05-14T19:55:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 1061.55,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0019",
+        "date": "2025-05-15T19:43:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 504.7,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1002-T0020",
+        "date": "2025-05-18T11:02:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 887.04,
+        "channel": "ATM",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1002-T0021",
+        "date": "2025-05-18T14:27:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-2",
+        "amount": 347.53,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1002-T0022",
+        "date": "2025-05-19T11:24:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 1461.26,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1002-T0023",
+        "date": "2025-05-20T12:29:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 1713.31,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0024",
+        "date": "2025-05-22T13:28:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 1091.8,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0025",
+        "date": "2025-05-22T15:44:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 978.74,
+        "channel": "ATM",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1002-T0026",
+        "date": "2025-05-23T16:22:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 1522.6,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0027",
+        "date": "2025-05-23T19:25:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 1455.65,
+        "channel": "NEFT",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1002-T0029",
+        "date": "2025-05-25T13:43:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-1",
+        "amount": 900.21,
+        "channel": "POS",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1002-T0028",
+        "date": "2025-05-25T13:51:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 1248.91,
+        "channel": "ONLINE",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1002-T0030",
+        "date": "2025-05-26T09:05:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 601.54,
+        "channel": "UPI",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1002-T0031",
+        "date": "2025-05-26T12:08:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 873.08,
+        "channel": "NEFT",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1002-T0032",
+        "date": "2025-05-27T11:30:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 1165.69,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1002-T0033",
+        "date": "2025-05-29T21:14:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 1983.02,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0034",
+        "date": "2025-05-30T09:23:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 1180.43,
+        "channel": "UPI",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1002-T0035",
+        "date": "2025-05-30T19:23:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 1414.84,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0036",
+        "date": "2025-05-31T18:52:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 1227.16,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0037",
+        "date": "2025-06-01T09:02:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 1349.34,
+        "channel": "POS",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0038",
+        "date": "2025-06-02T17:42:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 1503.95,
+        "channel": "NEFT",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0039",
+        "date": "2025-06-03T15:41:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 1547.67,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1002-T0040",
+        "date": "2025-06-04T09:28:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 1092.26,
+        "channel": "POS",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0041",
+        "date": "2025-06-05T17:57:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 926.47,
+        "channel": "UPI",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1002-T0042",
+        "date": "2025-06-06T10:05:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 1943.28,
+        "channel": "POS",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0043",
+        "date": "2025-06-07T12:08:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 953.37,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1002-T0044",
+        "date": "2025-06-08T18:21:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 1380.02,
+        "channel": "POS",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1002-T0045",
+        "date": "2025-06-09T11:34:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 2028.59,
+        "channel": "POS",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0046",
+        "date": "2025-06-11T09:37:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 734.47,
+        "channel": "ONLINE",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1002-T0047",
+        "date": "2025-06-13T20:26:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 1775.55,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1002-T0049",
+        "date": "2025-06-14T20:50:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 1629.68,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0048",
+        "date": "2025-06-14T21:28:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 835.17,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0050",
+        "date": "2025-06-17T15:45:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 1020.39,
+        "channel": "POS",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1002-T0051",
+        "date": "2025-06-17T18:09:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 1289.71,
+        "channel": "ATM",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1002-T0052",
+        "date": "2025-06-18T15:29:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1716.22,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0053",
+        "date": "2025-06-20T15:28:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 1182.57,
+        "channel": "ATM",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1002-T0054",
+        "date": "2025-06-21T15:27:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 1037.8,
+        "channel": "ATM",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1002-T0055",
+        "date": "2025-06-21T19:59:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 1294.57,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1002-T0056",
+        "date": "2025-06-24T10:08:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 1186.21,
+        "channel": "NEFT",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1002-T0057",
+        "date": "2025-06-24T17:21:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 794.66,
+        "channel": "ATM",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1002-T0059",
+        "date": "2025-06-25T12:09:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-2",
+        "amount": 1309.88,
+        "channel": "POS",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1002-T0058",
+        "date": "2025-06-25T20:19:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 1528.0,
+        "channel": "NEFT",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1002-T0060",
+        "date": "2025-06-26T10:51:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 1243.42,
+        "channel": "NEFT",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1002-T0061",
+        "date": "2025-06-28T09:11:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 652.96,
+        "channel": "ATM",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1002-T0062",
+        "date": "2025-06-30T11:09:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 811.31,
+        "channel": "NEFT",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1002-T0063",
+        "date": "2025-07-01T15:29:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 1027.95,
+        "channel": "ATM",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1002-T0064",
+        "date": "2025-07-01T20:38:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 749.25,
+        "channel": "ONLINE",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1002-T0065",
+        "date": "2025-07-04T16:42:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-4",
+        "amount": 2093.18,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1002-T0066",
+        "date": "2025-07-05T13:22:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 1308.05,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0067",
+        "date": "2025-07-05T19:37:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 1691.62,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0068",
+        "date": "2025-07-06T15:13:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 1340.31,
+        "channel": "ONLINE",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1002-T0069",
+        "date": "2025-07-07T13:20:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 1186.24,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0070",
+        "date": "2025-07-08T11:14:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1556.52,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0071",
+        "date": "2025-07-08T15:55:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 1575.78,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1002-T0072",
+        "date": "2025-07-10T18:40:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 813.93,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1002-T0073",
+        "date": "2025-07-12T11:51:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 1383.8,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0074",
+        "date": "2025-07-13T10:33:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 1223.51,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0075",
+        "date": "2025-07-13T14:14:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 1759.49,
+        "channel": "POS",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1002-T0076",
+        "date": "2025-07-15T21:52:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-2",
+        "amount": 804.14,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1002-T0077",
+        "date": "2025-07-16T12:11:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 1749.38,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1002-T0078",
+        "date": "2025-07-17T16:28:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1219.81,
+        "channel": "ATM",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1002-T0079",
+        "date": "2025-07-17T19:20:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 490.84,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1002-T0081",
+        "date": "2025-07-18T16:28:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 1518.23,
+        "channel": "ATM",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1002-T0080",
+        "date": "2025-07-18T19:03:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 1090.33,
+        "channel": "POS",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1002-T0082",
+        "date": "2025-07-19T10:05:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 489.51,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1002-T0084",
+        "date": "2025-07-20T12:09:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 992.67,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1002-T0083",
+        "date": "2025-07-20T18:35:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 287.99,
+        "channel": "NEFT",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0085",
+        "date": "2025-07-21T20:05:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 1629.84,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1002-T0086",
+        "date": "2025-07-22T16:23:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 630.36,
+        "channel": "UPI",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1002-T0087",
+        "date": "2025-07-22T21:21:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 1113.19,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0088",
+        "date": "2025-07-23T10:16:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 812.02,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0089",
+        "date": "2025-07-24T14:19:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-2",
+        "amount": 1052.1,
+        "channel": "NEFT",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0090",
+        "date": "2025-07-26T17:52:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 668.46,
+        "channel": "POS",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0092",
+        "date": "2025-07-27T12:12:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-2",
+        "amount": 809.79,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0091",
+        "date": "2025-07-27T17:23:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 1720.44,
+        "channel": "ATM",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1002-T0093",
+        "date": "2025-07-28T21:06:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1800.33,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0094",
+        "date": "2025-07-29T21:09:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-2",
+        "amount": 782.32,
+        "channel": "NEFT",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1002-T0095",
+        "date": "2025-07-30T20:28:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 817.39,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0096",
+        "date": "2025-07-31T16:50:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-2",
+        "amount": 660.96,
+        "channel": "NEFT",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1002-T0097",
+        "date": "2025-08-01T21:50:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-2",
+        "amount": 750.66,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0099",
+        "date": "2025-08-02T12:51:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 476.6,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0098",
+        "date": "2025-08-02T16:32:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 1288.79,
+        "channel": "ONLINE",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1002-T0100",
+        "date": "2025-08-03T14:54:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 1015.95,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0101",
+        "date": "2025-08-03T21:10:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 1134.34,
+        "channel": "NEFT",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1002-T0102",
+        "date": "2025-08-04T10:28:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 1480.91,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0103",
+        "date": "2025-08-04T15:32:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 1101.67,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0130",
+        "date": "2025-08-04T18:00:00",
+        "description": "Large fund transfer",
+        "payee": "Payee-NEW-LARGE",
+        "amount": 185000.0,
+        "channel": "NEFT",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0104",
+        "date": "2025-08-05T12:53:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 2155.57,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0105",
+        "date": "2025-08-06T16:44:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 1371.03,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1002-T0106",
+        "date": "2025-08-10T12:46:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1469.63,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0107",
+        "date": "2025-08-11T12:19:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 743.84,
+        "channel": "ONLINE",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1002-T0108",
+        "date": "2025-08-12T10:38:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 1899.25,
+        "channel": "NEFT",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1002-T0109",
+        "date": "2025-08-12T12:45:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 1784.85,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0110",
+        "date": "2025-08-13T12:42:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 955.72,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0112",
+        "date": "2025-08-15T09:15:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 1102.09,
+        "channel": "ATM",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1002-T0111",
+        "date": "2025-08-15T16:02:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 1083.8,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0113",
+        "date": "2025-08-17T17:21:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 1322.85,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0114",
+        "date": "2025-08-18T21:29:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 1641.19,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0115",
+        "date": "2025-08-19T09:20:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 1699.5,
+        "channel": "UPI",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1002-T0117",
+        "date": "2025-08-20T10:51:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 1338.22,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0116",
+        "date": "2025-08-20T13:18:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 1790.05,
+        "channel": "ATM",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1002-T0118",
+        "date": "2025-08-21T15:44:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 1056.65,
+        "channel": "NEFT",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1002-T0119",
+        "date": "2025-08-21T21:05:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 1428.93,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1002-T0120",
+        "date": "2025-08-22T17:20:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 1146.93,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1002-T0121",
+        "date": "2025-08-23T11:44:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 1388.08,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1002-T0122",
+        "date": "2025-08-23T20:27:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 1468.15,
+        "channel": "POS",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1002-T0123",
+        "date": "2025-08-24T14:32:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-1",
+        "amount": 914.58,
+        "channel": "ONLINE",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1002-T0124",
+        "date": "2025-08-24T18:08:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 1003.08,
+        "channel": "ATM",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1002-T0126",
+        "date": "2025-08-25T14:08:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 1042.31,
+        "channel": "UPI",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1002-T0125",
+        "date": "2025-08-25T18:02:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 794.25,
+        "channel": "UPI",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1002-T0127",
+        "date": "2025-08-26T12:07:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 1257.96,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1002-T0128",
+        "date": "2025-08-27T17:45:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-2",
+        "amount": 1735.72,
+        "channel": "NEFT",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1002-T0129",
+        "date": "2025-08-27T20:58:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-2",
+        "amount": 1689.08,
+        "channel": "POS",
+        "category": "utilities"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-1003",
+    "name": "Meera Nair",
+    "history": [
+      {
+        "txn_id": "CUST-1003-T0001",
+        "date": "2025-05-02T13:59:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 2390.99,
+        "channel": "NEFT",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1003-T0002",
+        "date": "2025-05-04T21:08:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 1001.05,
+        "channel": "POS",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1003-T0003",
+        "date": "2025-05-05T16:39:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 2063.98,
+        "channel": "ATM",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0005",
+        "date": "2025-05-06T14:43:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 1368.75,
+        "channel": "ONLINE",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1003-T0004",
+        "date": "2025-05-06T17:26:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 1046.95,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1003-T0006",
+        "date": "2025-05-07T21:08:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 1262.83,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1003-T0007",
+        "date": "2025-05-09T13:45:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 2084.11,
+        "channel": "NEFT",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1003-T0008",
+        "date": "2025-05-11T12:40:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 2278.05,
+        "channel": "ONLINE",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0009",
+        "date": "2025-05-12T18:10:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1071.89,
+        "channel": "ONLINE",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1003-T0010",
+        "date": "2025-05-13T18:02:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 1644.54,
+        "channel": "POS",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0011",
+        "date": "2025-05-14T19:39:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 2000.11,
+        "channel": "NEFT",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1003-T0012",
+        "date": "2025-05-15T16:15:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 2596.15,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0013",
+        "date": "2025-05-17T16:21:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 1192.6,
+        "channel": "ATM",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1003-T0014",
+        "date": "2025-05-18T20:55:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 2156.02,
+        "channel": "ONLINE",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1003-T0015",
+        "date": "2025-05-19T17:29:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 1288.56,
+        "channel": "UPI",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1003-T0016",
+        "date": "2025-05-20T10:03:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 1591.34,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0017",
+        "date": "2025-05-21T11:46:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 2370.05,
+        "channel": "ONLINE",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0019",
+        "date": "2025-05-22T15:13:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 157.69,
+        "channel": "POS",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0018",
+        "date": "2025-05-22T16:56:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 447.34,
+        "channel": "POS",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0020",
+        "date": "2025-05-23T16:38:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 1743.8,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0022",
+        "date": "2025-05-25T09:36:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 1116.08,
+        "channel": "ATM",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1003-T0021",
+        "date": "2025-05-25T11:48:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 2551.2,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0023",
+        "date": "2025-05-26T10:35:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 1279.14,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0024",
+        "date": "2025-05-27T10:25:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 2251.42,
+        "channel": "NEFT",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1003-T0025",
+        "date": "2025-05-28T12:02:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 1289.53,
+        "channel": "ONLINE",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0026",
+        "date": "2025-05-29T21:30:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 1416.92,
+        "channel": "ONLINE",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1003-T0027",
+        "date": "2025-05-30T14:25:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 2301.24,
+        "channel": "NEFT",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1003-T0029",
+        "date": "2025-05-31T14:37:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 988.75,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0028",
+        "date": "2025-05-31T20:36:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 1569.38,
+        "channel": "POS",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1003-T0030",
+        "date": "2025-06-01T19:50:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 236.93,
+        "channel": "ONLINE",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0031",
+        "date": "2025-06-03T11:49:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-2",
+        "amount": 804.75,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0032",
+        "date": "2025-06-03T18:44:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 1647.29,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0033",
+        "date": "2025-06-04T15:26:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 2360.09,
+        "channel": "UPI",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1003-T0034",
+        "date": "2025-06-06T17:13:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 2585.66,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1003-T0035",
+        "date": "2025-06-07T14:34:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 2473.3,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0036",
+        "date": "2025-06-07T21:55:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 1612.1,
+        "channel": "UPI",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1003-T0037",
+        "date": "2025-06-08T13:19:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 1379.95,
+        "channel": "UPI",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1003-T0038",
+        "date": "2025-06-09T14:35:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 1639.51,
+        "channel": "POS",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1003-T0039",
+        "date": "2025-06-09T19:25:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 509.32,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0040",
+        "date": "2025-06-10T20:05:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 1440.88,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0041",
+        "date": "2025-06-11T12:59:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 2032.43,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0042",
+        "date": "2025-06-11T18:47:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 2548.29,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0043",
+        "date": "2025-06-12T19:21:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 1831.16,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0044",
+        "date": "2025-06-13T15:41:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-4",
+        "amount": 2087.82,
+        "channel": "ONLINE",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1003-T0045",
+        "date": "2025-06-14T14:49:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 1751.44,
+        "channel": "ONLINE",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1003-T0046",
+        "date": "2025-06-16T15:56:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-1",
+        "amount": 2014.6,
+        "channel": "UPI",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1003-T0047",
+        "date": "2025-06-17T11:59:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 3285.83,
+        "channel": "POS",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1003-T0048",
+        "date": "2025-06-17T18:38:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 1174.78,
+        "channel": "ATM",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0049",
+        "date": "2025-06-18T11:12:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 2219.85,
+        "channel": "ONLINE",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0050",
+        "date": "2025-06-18T16:41:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 1230.15,
+        "channel": "POS",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0051",
+        "date": "2025-06-19T21:12:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 1536.56,
+        "channel": "UPI",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1003-T0053",
+        "date": "2025-06-20T11:00:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 338.34,
+        "channel": "ONLINE",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0052",
+        "date": "2025-06-20T17:20:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 2706.26,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1003-T0054",
+        "date": "2025-06-21T14:19:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 2008.45,
+        "channel": "POS",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1003-T0055",
+        "date": "2025-06-22T20:29:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 1880.39,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0056",
+        "date": "2025-06-23T20:07:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 2731.82,
+        "channel": "NEFT",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1003-T0057",
+        "date": "2025-06-24T11:38:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 1112.41,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0058",
+        "date": "2025-06-25T21:15:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 1894.86,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0059",
+        "date": "2025-06-26T10:53:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 2066.75,
+        "channel": "ONLINE",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1003-T0060",
+        "date": "2025-06-27T11:20:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 1647.28,
+        "channel": "POS",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0061",
+        "date": "2025-06-28T20:32:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 1561.59,
+        "channel": "UPI",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1003-T0062",
+        "date": "2025-06-29T16:36:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 1662.72,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0063",
+        "date": "2025-06-29T21:16:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 1752.76,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0064",
+        "date": "2025-07-01T14:44:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 1923.45,
+        "channel": "POS",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0065",
+        "date": "2025-07-01T16:49:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 2433.2,
+        "channel": "ATM",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0067",
+        "date": "2025-07-02T14:25:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 3255.15,
+        "channel": "ONLINE",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1003-T0066",
+        "date": "2025-07-02T15:24:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 1927.96,
+        "channel": "ONLINE",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0068",
+        "date": "2025-07-05T16:43:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 3143.15,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0069",
+        "date": "2025-07-06T12:12:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 1445.34,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1003-T0070",
+        "date": "2025-07-08T12:04:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 1889.58,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0071",
+        "date": "2025-07-10T20:34:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-1",
+        "amount": 2451.35,
+        "channel": "ONLINE",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1003-T0072",
+        "date": "2025-07-11T12:52:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 1985.85,
+        "channel": "NEFT",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1003-T0073",
+        "date": "2025-07-12T12:42:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 1688.05,
+        "channel": "UPI",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1003-T0074",
+        "date": "2025-07-13T09:35:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 2131.97,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1003-T0075",
+        "date": "2025-07-14T09:42:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 3278.82,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0076",
+        "date": "2025-07-14T15:26:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 1539.9,
+        "channel": "UPI",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1003-T0077",
+        "date": "2025-07-15T12:45:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 2111.43,
+        "channel": "POS",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1003-T0078",
+        "date": "2025-07-15T15:26:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1367.6,
+        "channel": "ONLINE",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0079",
+        "date": "2025-07-16T13:59:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 2062.65,
+        "channel": "POS",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1003-T0080",
+        "date": "2025-07-17T09:17:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 2670.02,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0081",
+        "date": "2025-07-19T21:35:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 1874.26,
+        "channel": "ONLINE",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1003-T0082",
+        "date": "2025-07-20T13:58:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 791.4,
+        "channel": "ONLINE",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0083",
+        "date": "2025-07-22T12:25:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 1470.75,
+        "channel": "ATM",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1003-T0084",
+        "date": "2025-07-22T13:24:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 874.07,
+        "channel": "ATM",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1003-T0085",
+        "date": "2025-07-23T14:06:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 1063.54,
+        "channel": "ONLINE",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1003-T0086",
+        "date": "2025-07-24T15:02:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 1740.57,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0087",
+        "date": "2025-07-25T17:26:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 2560.19,
+        "channel": "ONLINE",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1003-T0088",
+        "date": "2025-07-26T15:36:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 1469.67,
+        "channel": "NEFT",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0089",
+        "date": "2025-07-27T13:46:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-4",
+        "amount": 1861.18,
+        "channel": "ONLINE",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0090",
+        "date": "2025-07-28T11:08:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 1072.94,
+        "channel": "ONLINE",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1003-T0091",
+        "date": "2025-08-03T11:45:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-1",
+        "amount": 2051.07,
+        "channel": "ONLINE",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1003-T0092",
+        "date": "2025-08-03T16:23:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 1418.01,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0093",
+        "date": "2025-08-04T09:00:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 2597.28,
+        "channel": "ATM",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1003-T0094",
+        "date": "2025-08-04T13:01:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 1833.14,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0095",
+        "date": "2025-08-06T12:52:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 2074.85,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0096",
+        "date": "2025-08-07T15:29:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 2519.6,
+        "channel": "ONLINE",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1003-T0116",
+        "date": "2025-08-11T00:00:00",
+        "description": "UPI transfer to Payee-BURST-77",
+        "payee": "Payee-BURST-77",
+        "amount": 10661.09,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0117",
+        "date": "2025-08-11T03:00:00",
+        "description": "UPI transfer to Payee-BURST-77",
+        "payee": "Payee-BURST-77",
+        "amount": 12100.96,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0118",
+        "date": "2025-08-11T06:00:00",
+        "description": "UPI transfer to Payee-BURST-77",
+        "payee": "Payee-BURST-77",
+        "amount": 13020.38,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0119",
+        "date": "2025-08-11T09:00:00",
+        "description": "UPI transfer to Payee-BURST-77",
+        "payee": "Payee-BURST-77",
+        "amount": 10647.71,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1003-T0097",
+        "date": "2025-08-11T15:40:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 1286.68,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0098",
+        "date": "2025-08-11T15:41:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 2299.51,
+        "channel": "POS",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1003-T0099",
+        "date": "2025-08-13T12:36:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 2587.04,
+        "channel": "POS",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0100",
+        "date": "2025-08-14T17:36:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 1237.74,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0101",
+        "date": "2025-08-15T18:52:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 2520.56,
+        "channel": "ATM",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1003-T0102",
+        "date": "2025-08-16T18:53:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 2719.26,
+        "channel": "ATM",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0103",
+        "date": "2025-08-17T21:32:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 2808.48,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0104",
+        "date": "2025-08-18T10:21:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1726.86,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0105",
+        "date": "2025-08-19T09:28:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-2",
+        "amount": 1066.56,
+        "channel": "ATM",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1003-T0106",
+        "date": "2025-08-20T15:11:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 977.26,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1003-T0107",
+        "date": "2025-08-20T18:04:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 1666.69,
+        "channel": "ONLINE",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0108",
+        "date": "2025-08-21T20:24:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 2254.8,
+        "channel": "POS",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0109",
+        "date": "2025-08-23T16:08:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 1481.77,
+        "channel": "UPI",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0110",
+        "date": "2025-08-24T10:01:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 2185.09,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0111",
+        "date": "2025-08-24T18:24:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 1344.6,
+        "channel": "UPI",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1003-T0112",
+        "date": "2025-08-26T18:33:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 1477.61,
+        "channel": "ONLINE",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1003-T0113",
+        "date": "2025-08-27T13:10:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 1759.17,
+        "channel": "UPI",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1003-T0115",
+        "date": "2025-08-28T19:29:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 927.87,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1003-T0114",
+        "date": "2025-08-28T21:04:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 2151.5,
+        "channel": "ONLINE",
+        "category": "transfer"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-1004",
+    "name": "Yash Gupta",
+    "history": [
+      {
+        "txn_id": "CUST-1004-T0001",
+        "date": "2025-05-01T18:44:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 1012.78,
+        "channel": "ATM",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1004-T0003",
+        "date": "2025-05-02T13:52:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 1521.16,
+        "channel": "POS",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0002",
+        "date": "2025-05-02T14:31:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 861.12,
+        "channel": "ATM",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0004",
+        "date": "2025-05-03T18:49:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 1220.42,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1004-T0005",
+        "date": "2025-05-04T16:51:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 996.21,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1004-T0006",
+        "date": "2025-05-05T11:42:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 825.66,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1004-T0007",
+        "date": "2025-05-05T16:38:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 806.37,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0008",
+        "date": "2025-05-06T17:44:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1895.67,
+        "channel": "POS",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1004-T0009",
+        "date": "2025-05-06T21:15:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 1210.66,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1004-T0011",
+        "date": "2025-05-07T17:47:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1544.02,
+        "channel": "NEFT",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1004-T0010",
+        "date": "2025-05-07T21:06:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 693.77,
+        "channel": "ATM",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1004-T0012",
+        "date": "2025-05-08T16:43:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 725.52,
+        "channel": "ONLINE",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0013",
+        "date": "2025-05-10T10:18:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 1277.53,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1004-T0014",
+        "date": "2025-05-10T20:29:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 1190.44,
+        "channel": "UPI",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0016",
+        "date": "2025-05-11T09:54:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 1063.9,
+        "channel": "ONLINE",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1004-T0015",
+        "date": "2025-05-11T10:28:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 1235.2,
+        "channel": "POS",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0017",
+        "date": "2025-05-12T17:11:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 839.15,
+        "channel": "ATM",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0018",
+        "date": "2025-05-13T16:11:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 1040.58,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1004-T0019",
+        "date": "2025-05-13T20:39:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 1354.37,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0020",
+        "date": "2025-05-14T09:48:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 933.34,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1004-T0021",
+        "date": "2025-05-14T17:11:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 771.96,
+        "channel": "ONLINE",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0022",
+        "date": "2025-05-16T19:40:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 1278.7,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0024",
+        "date": "2025-05-17T11:19:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1213.5,
+        "channel": "POS",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1004-T0023",
+        "date": "2025-05-17T18:07:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 674.25,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0025",
+        "date": "2025-05-18T14:07:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 495.69,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1004-T0026",
+        "date": "2025-05-19T20:38:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 1218.97,
+        "channel": "UPI",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0027",
+        "date": "2025-05-20T16:40:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 1269.33,
+        "channel": "NEFT",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1004-T0028",
+        "date": "2025-05-21T13:28:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 1193.47,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1004-T0029",
+        "date": "2025-05-21T16:08:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 1234.76,
+        "channel": "NEFT",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0030",
+        "date": "2025-05-22T15:53:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-4",
+        "amount": 855.28,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1004-T0031",
+        "date": "2025-05-22T18:01:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 667.32,
+        "channel": "POS",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0032",
+        "date": "2025-05-23T17:36:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 853.3,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1004-T0033",
+        "date": "2025-05-25T21:34:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 1591.83,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1004-T0035",
+        "date": "2025-05-26T13:22:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 1361.13,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1004-T0034",
+        "date": "2025-05-26T17:47:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 1072.32,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0036",
+        "date": "2025-05-27T12:22:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 1173.48,
+        "channel": "ONLINE",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0037",
+        "date": "2025-05-28T21:13:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-1",
+        "amount": 567.44,
+        "channel": "NEFT",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0038",
+        "date": "2025-05-29T18:45:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 699.61,
+        "channel": "NEFT",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0039",
+        "date": "2025-05-31T21:50:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 925.35,
+        "channel": "ATM",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1004-T0040",
+        "date": "2025-06-01T20:45:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 1176.78,
+        "channel": "UPI",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0041",
+        "date": "2025-06-02T18:40:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 802.2,
+        "channel": "UPI",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0042",
+        "date": "2025-06-05T17:56:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 999.33,
+        "channel": "UPI",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0043",
+        "date": "2025-06-05T18:00:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 460.85,
+        "channel": "ATM",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1004-T0044",
+        "date": "2025-06-07T12:31:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 1640.25,
+        "channel": "ATM",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0045",
+        "date": "2025-06-07T17:36:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 870.04,
+        "channel": "UPI",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1004-T0046",
+        "date": "2025-06-08T19:40:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 1008.26,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1004-T0047",
+        "date": "2025-06-09T16:29:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 892.97,
+        "channel": "ONLINE",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1004-T0048",
+        "date": "2025-06-10T19:56:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 771.75,
+        "channel": "ATM",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0049",
+        "date": "2025-06-12T19:57:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-1",
+        "amount": 1675.45,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1004-T0050",
+        "date": "2025-06-13T20:41:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 920.15,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1004-T0051",
+        "date": "2025-06-14T10:08:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 757.14,
+        "channel": "NEFT",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1004-T0052",
+        "date": "2025-06-14T16:52:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 1538.9,
+        "channel": "ONLINE",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0053",
+        "date": "2025-06-16T15:05:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 1031.48,
+        "channel": "ATM",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0054",
+        "date": "2025-06-17T11:55:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-2",
+        "amount": 525.08,
+        "channel": "POS",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0055",
+        "date": "2025-06-19T16:22:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-2",
+        "amount": 1430.94,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0056",
+        "date": "2025-06-20T12:48:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 1137.75,
+        "channel": "UPI",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0057",
+        "date": "2025-06-20T15:20:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-2",
+        "amount": 1083.45,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1004-T0058",
+        "date": "2025-06-22T17:18:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 549.52,
+        "channel": "ONLINE",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0059",
+        "date": "2025-06-23T20:25:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 668.37,
+        "channel": "ONLINE",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0060",
+        "date": "2025-06-24T10:04:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 1027.95,
+        "channel": "ATM",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0061",
+        "date": "2025-06-24T11:24:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 1498.22,
+        "channel": "ATM",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0062",
+        "date": "2025-06-25T21:04:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 50,
+        "channel": "POS",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1004-T0063",
+        "date": "2025-06-26T12:02:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 1187.43,
+        "channel": "NEFT",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0065",
+        "date": "2025-06-27T10:19:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 861.43,
+        "channel": "ONLINE",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1004-T0064",
+        "date": "2025-06-27T15:34:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 956.71,
+        "channel": "ONLINE",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0066",
+        "date": "2025-06-28T17:48:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 784.3,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1004-T0067",
+        "date": "2025-06-29T09:15:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 1412.06,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0068",
+        "date": "2025-07-01T19:07:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 970.0,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1004-T0070",
+        "date": "2025-07-02T11:46:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 999.0,
+        "channel": "ATM",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1004-T0069",
+        "date": "2025-07-02T14:33:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 425.76,
+        "channel": "ONLINE",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0072",
+        "date": "2025-07-03T10:03:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 581.6,
+        "channel": "ONLINE",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0071",
+        "date": "2025-07-03T13:33:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 288.34,
+        "channel": "NEFT",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1004-T0073",
+        "date": "2025-07-04T13:49:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 1010.13,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1004-T0074",
+        "date": "2025-07-08T09:09:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-1",
+        "amount": 661.45,
+        "channel": "NEFT",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1004-T0076",
+        "date": "2025-07-09T10:43:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 841.03,
+        "channel": "ONLINE",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1004-T0075",
+        "date": "2025-07-09T12:20:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 1060.7,
+        "channel": "ATM",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0078",
+        "date": "2025-07-11T10:12:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 958.17,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1004-T0077",
+        "date": "2025-07-11T10:56:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 923.31,
+        "channel": "ATM",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0079",
+        "date": "2025-07-12T16:23:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 985.5,
+        "channel": "ONLINE",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1004-T0080",
+        "date": "2025-07-13T11:14:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 1359.27,
+        "channel": "POS",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0082",
+        "date": "2025-07-15T12:09:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 218.67,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1004-T0081",
+        "date": "2025-07-15T20:46:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 1014.41,
+        "channel": "ONLINE",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0084",
+        "date": "2025-07-16T10:25:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 501.88,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1004-T0083",
+        "date": "2025-07-16T20:57:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 1430.72,
+        "channel": "POS",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0086",
+        "date": "2025-07-17T14:53:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 1312.62,
+        "channel": "UPI",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0085",
+        "date": "2025-07-17T19:08:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 983.01,
+        "channel": "ATM",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1004-T0087",
+        "date": "2025-07-18T10:12:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 843.28,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1004-T0088",
+        "date": "2025-07-20T16:34:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 650.57,
+        "channel": "UPI",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0089",
+        "date": "2025-07-21T13:54:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 1075.68,
+        "channel": "ONLINE",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1004-T0090",
+        "date": "2025-07-21T19:38:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 817.36,
+        "channel": "ATM",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1004-T0091",
+        "date": "2025-07-23T14:25:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 1515.26,
+        "channel": "ATM",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0092",
+        "date": "2025-07-24T09:35:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 1656.43,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0093",
+        "date": "2025-07-26T10:00:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 796.23,
+        "channel": "ONLINE",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1004-T0095",
+        "date": "2025-07-27T10:01:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 240.82,
+        "channel": "UPI",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1004-T0094",
+        "date": "2025-07-27T14:05:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 678.73,
+        "channel": "ATM",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1004-T0096",
+        "date": "2025-07-28T10:21:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 1544.55,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1004-T0097",
+        "date": "2025-07-29T18:27:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-4",
+        "amount": 630.31,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0098",
+        "date": "2025-07-30T11:17:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 535.09,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1004-T0099",
+        "date": "2025-07-30T18:39:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 1607.65,
+        "channel": "ATM",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0100",
+        "date": "2025-07-31T17:24:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 851.32,
+        "channel": "ONLINE",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1004-T0101",
+        "date": "2025-07-31T21:33:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 1019.7,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0102",
+        "date": "2025-08-01T16:58:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 612.64,
+        "channel": "ATM",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0103",
+        "date": "2025-08-02T11:01:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 888.73,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1004-T0104",
+        "date": "2025-08-03T09:22:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 1142.43,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1004-T0105",
+        "date": "2025-08-04T19:15:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 631.17,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1004-T0106",
+        "date": "2025-08-05T18:22:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-2",
+        "amount": 1356.41,
+        "channel": "ONLINE",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0107",
+        "date": "2025-08-06T21:47:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 486.08,
+        "channel": "POS",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1004-T0108",
+        "date": "2025-08-07T18:12:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 585.08,
+        "channel": "ATM",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1004-T0109",
+        "date": "2025-08-08T09:05:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 824.74,
+        "channel": "NEFT",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1004-T0110",
+        "date": "2025-08-08T09:58:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 987.24,
+        "channel": "ONLINE",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0111",
+        "date": "2025-08-09T21:54:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 997.86,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1004-T0112",
+        "date": "2025-08-10T21:23:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 1328.08,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0113",
+        "date": "2025-08-12T13:20:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-2",
+        "amount": 1274.62,
+        "channel": "UPI",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1004-T0115",
+        "date": "2025-08-13T18:52:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 1500.26,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1004-T0114",
+        "date": "2025-08-13T19:35:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 774.94,
+        "channel": "ONLINE",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1004-T0116",
+        "date": "2025-08-14T11:44:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 1009.21,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1004-T0117",
+        "date": "2025-08-15T18:20:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 1018.87,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1004-T0135",
+        "date": "2025-08-16T01:53:00",
+        "description": "ATM withdrawal",
+        "payee": "ATM-Kiosk",
+        "amount": 10709.74,
+        "channel": "ATM",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0118",
+        "date": "2025-08-16T11:22:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 931.23,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1004-T0119",
+        "date": "2025-08-16T20:42:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 1122.95,
+        "channel": "POS",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0120",
+        "date": "2025-08-17T12:50:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 886.36,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0122",
+        "date": "2025-08-18T14:30:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 844.85,
+        "channel": "ONLINE",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0121",
+        "date": "2025-08-18T20:26:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 695.35,
+        "channel": "UPI",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0133",
+        "date": "2025-08-21T01:05:00",
+        "description": "ATM withdrawal",
+        "payee": "ATM-Kiosk",
+        "amount": 12676.99,
+        "channel": "ATM",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0123",
+        "date": "2025-08-21T09:20:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 953.84,
+        "channel": "POS",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0124",
+        "date": "2025-08-22T15:57:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 1073.39,
+        "channel": "NEFT",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0126",
+        "date": "2025-08-23T11:12:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 1296.27,
+        "channel": "NEFT",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1004-T0125",
+        "date": "2025-08-23T20:01:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-2",
+        "amount": 1117.11,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0134",
+        "date": "2025-08-24T04:48:00",
+        "description": "ATM withdrawal",
+        "payee": "ATM-Kiosk",
+        "amount": 12128.09,
+        "channel": "ATM",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0127",
+        "date": "2025-08-24T13:15:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 1103.64,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1004-T0129",
+        "date": "2025-08-25T10:01:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-2",
+        "amount": 1010.28,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1004-T0128",
+        "date": "2025-08-25T11:05:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 1028.83,
+        "channel": "UPI",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1004-T0130",
+        "date": "2025-08-26T10:31:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 873.7,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0131",
+        "date": "2025-08-26T11:23:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 1328.89,
+        "channel": "ONLINE",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1004-T0132",
+        "date": "2025-08-28T16:17:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 755.34,
+        "channel": "ONLINE",
+        "category": "fuel"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST-1005",
+    "name": "Meera Bose",
+    "history": [
+      {
+        "txn_id": "CUST-1005-T0001",
+        "date": "2025-05-01T10:25:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 1476.43,
+        "channel": "NEFT",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1005-T0002",
+        "date": "2025-05-02T10:10:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-2",
+        "amount": 1908.05,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1005-T0003",
+        "date": "2025-05-03T10:43:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-2",
+        "amount": 1232.29,
+        "channel": "ONLINE",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1005-T0004",
+        "date": "2025-05-03T18:58:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 1346.64,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1005-T0006",
+        "date": "2025-05-04T09:33:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 1555.82,
+        "channel": "UPI",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1005-T0005",
+        "date": "2025-05-04T17:20:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 2475.99,
+        "channel": "UPI",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1005-T0007",
+        "date": "2025-05-05T18:37:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 733.49,
+        "channel": "POS",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1005-T0008",
+        "date": "2025-05-07T17:16:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-4",
+        "amount": 2133.12,
+        "channel": "NEFT",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1005-T0009",
+        "date": "2025-05-08T09:11:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 712.73,
+        "channel": "ONLINE",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1005-T0010",
+        "date": "2025-05-08T18:25:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 1190.83,
+        "channel": "POS",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1005-T0011",
+        "date": "2025-05-09T13:57:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 949.53,
+        "channel": "ATM",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1005-T0012",
+        "date": "2025-05-09T21:31:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 1269.94,
+        "channel": "ONLINE",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1005-T0014",
+        "date": "2025-05-10T19:58:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-4",
+        "amount": 1847.96,
+        "channel": "NEFT",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1005-T0013",
+        "date": "2025-05-10T21:52:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 1775.59,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1005-T0015",
+        "date": "2025-05-11T09:32:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-1",
+        "amount": 1681.48,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1005-T0016",
+        "date": "2025-05-12T11:36:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 1513.82,
+        "channel": "ONLINE",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1005-T0017",
+        "date": "2025-05-12T12:53:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 813.65,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0018",
+        "date": "2025-05-14T20:29:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 1547.64,
+        "channel": "POS",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1005-T0019",
+        "date": "2025-05-16T14:31:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 1845.89,
+        "channel": "ONLINE",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1005-T0021",
+        "date": "2025-05-17T15:03:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 1257.31,
+        "channel": "ONLINE",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1005-T0020",
+        "date": "2025-05-17T18:53:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 973.07,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1005-T0022",
+        "date": "2025-05-18T19:41:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 1451.94,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1005-T0023",
+        "date": "2025-05-20T11:41:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 1729.41,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1005-T0024",
+        "date": "2025-05-20T13:45:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 488.54,
+        "channel": "UPI",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1005-T0025",
+        "date": "2025-05-21T16:16:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 661.82,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1005-T0027",
+        "date": "2025-05-22T13:19:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 1751.62,
+        "channel": "POS",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1005-T0026",
+        "date": "2025-05-22T18:42:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 1869.47,
+        "channel": "NEFT",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1005-T0028",
+        "date": "2025-05-23T19:41:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 1220.57,
+        "channel": "ONLINE",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1005-T0029",
+        "date": "2025-05-24T09:51:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 1751.4,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1005-T0030",
+        "date": "2025-05-25T20:18:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 1967.41,
+        "channel": "UPI",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0031",
+        "date": "2025-05-27T14:46:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 1491.53,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1005-T0032",
+        "date": "2025-05-28T17:42:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 1307.22,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1005-T0033",
+        "date": "2025-05-29T11:47:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 1684.36,
+        "channel": "ONLINE",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1005-T0034",
+        "date": "2025-05-29T14:14:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 1203.7,
+        "channel": "ATM",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1005-T0035",
+        "date": "2025-05-30T18:18:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 1113.35,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1005-T0037",
+        "date": "2025-06-01T11:08:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 1397.05,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1005-T0036",
+        "date": "2025-06-01T12:24:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 414.83,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1005-T0039",
+        "date": "2025-06-02T11:20:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 2110.49,
+        "channel": "UPI",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1005-T0038",
+        "date": "2025-06-02T11:49:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 1085.18,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1005-T0040",
+        "date": "2025-06-03T21:10:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 1494.64,
+        "channel": "ONLINE",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1005-T0042",
+        "date": "2025-06-04T09:23:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 1717.67,
+        "channel": "NEFT",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1005-T0041",
+        "date": "2025-06-04T19:27:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-4",
+        "amount": 764.88,
+        "channel": "UPI",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0043",
+        "date": "2025-06-07T12:44:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 1476.74,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1005-T0044",
+        "date": "2025-06-08T17:52:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 1148.56,
+        "channel": "ATM",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0045",
+        "date": "2025-06-08T20:33:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1243.36,
+        "channel": "ATM",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0046",
+        "date": "2025-06-09T14:48:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-2",
+        "amount": 1968.61,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1005-T0047",
+        "date": "2025-06-10T12:46:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-2",
+        "amount": 1386.2,
+        "channel": "POS",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1005-T0048",
+        "date": "2025-06-11T10:02:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-3",
+        "amount": 924.81,
+        "channel": "NEFT",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1005-T0049",
+        "date": "2025-06-18T16:24:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 1928.26,
+        "channel": "ATM",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0050",
+        "date": "2025-06-18T20:40:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 1831.88,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1005-T0051",
+        "date": "2025-06-20T18:38:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 2019.67,
+        "channel": "POS",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1005-T0052",
+        "date": "2025-06-22T10:38:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 1524.6,
+        "channel": "NEFT",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1005-T0053",
+        "date": "2025-06-23T20:26:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 838.61,
+        "channel": "POS",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1005-T0054",
+        "date": "2025-06-24T12:15:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 1187.64,
+        "channel": "POS",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1005-T0055",
+        "date": "2025-06-24T18:42:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-2",
+        "amount": 880.84,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1005-T0056",
+        "date": "2025-06-27T19:18:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 1573.22,
+        "channel": "POS",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1005-T0057",
+        "date": "2025-06-28T09:54:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 2856.46,
+        "channel": "ATM",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0058",
+        "date": "2025-07-03T19:57:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-5",
+        "amount": 1136.69,
+        "channel": "ATM",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1005-T0059",
+        "date": "2025-07-05T14:11:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 1050.69,
+        "channel": "UPI",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0060",
+        "date": "2025-07-06T15:26:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-1",
+        "amount": 1193.93,
+        "channel": "ONLINE",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1005-T0061",
+        "date": "2025-07-08T10:26:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 880.45,
+        "channel": "NEFT",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1005-T0063",
+        "date": "2025-07-09T10:56:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-4",
+        "amount": 851.72,
+        "channel": "POS",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1005-T0062",
+        "date": "2025-07-09T11:39:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-2",
+        "amount": 748.35,
+        "channel": "UPI",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0064",
+        "date": "2025-07-10T19:43:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1099.47,
+        "channel": "NEFT",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1005-T0065",
+        "date": "2025-07-11T17:33:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 2103.7,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1005-T0066",
+        "date": "2025-07-12T16:24:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 983.47,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1005-T0067",
+        "date": "2025-07-14T17:54:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-4",
+        "amount": 2006.74,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1005-T0068",
+        "date": "2025-07-15T14:03:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 1474.27,
+        "channel": "NEFT",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1005-T0069",
+        "date": "2025-07-15T15:25:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-1",
+        "amount": 2696.4,
+        "channel": "UPI",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0070",
+        "date": "2025-07-16T10:07:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-1",
+        "amount": 1731.12,
+        "channel": "POS",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0071",
+        "date": "2025-07-16T15:02:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 981.81,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1005-T0072",
+        "date": "2025-07-18T17:29:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-3",
+        "amount": 739.63,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1005-T0073",
+        "date": "2025-07-19T16:21:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1127.28,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0074",
+        "date": "2025-07-20T20:42:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-1",
+        "amount": 1187.92,
+        "channel": "ATM",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1005-T0075",
+        "date": "2025-07-21T17:33:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 1465.2,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1005-T0076",
+        "date": "2025-07-22T11:26:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 1752.09,
+        "channel": "NEFT",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1005-T0077",
+        "date": "2025-07-22T12:07:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-2",
+        "amount": 673.67,
+        "channel": "UPI",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1005-T0078",
+        "date": "2025-07-23T20:02:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 967.34,
+        "channel": "UPI",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0079",
+        "date": "2025-07-24T16:00:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 2101.74,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0081",
+        "date": "2025-07-25T15:42:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 344.69,
+        "channel": "ATM",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1005-T0080",
+        "date": "2025-07-25T17:44:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 1608.75,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1005-T0083",
+        "date": "2025-07-26T13:28:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-2",
+        "amount": 1259.95,
+        "channel": "UPI",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1005-T0082",
+        "date": "2025-07-26T15:48:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 2481.34,
+        "channel": "UPI",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1005-T0084",
+        "date": "2025-07-27T20:47:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 993.7,
+        "channel": "ONLINE",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1005-T0085",
+        "date": "2025-07-28T19:22:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-2",
+        "amount": 1274.15,
+        "channel": "NEFT",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1005-T0086",
+        "date": "2025-07-29T20:30:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1741.76,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1005-T0087",
+        "date": "2025-07-30T15:51:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-5",
+        "amount": 1702.85,
+        "channel": "POS",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1005-T0089",
+        "date": "2025-07-31T09:44:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 1454.75,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1005-T0088",
+        "date": "2025-07-31T11:17:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-3",
+        "amount": 1558.06,
+        "channel": "ATM",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1005-T0090",
+        "date": "2025-08-01T16:47:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 2188.69,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0091",
+        "date": "2025-08-02T17:50:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-1",
+        "amount": 1992.01,
+        "channel": "UPI",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0093",
+        "date": "2025-08-03T18:55:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-2",
+        "amount": 1335.79,
+        "channel": "ATM",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1005-T0092",
+        "date": "2025-08-03T21:35:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 1819.42,
+        "channel": "ATM",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1005-T0094",
+        "date": "2025-08-04T21:28:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-1",
+        "amount": 1349.56,
+        "channel": "ONLINE",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1005-T0120",
+        "date": "2025-08-06T00:00:00",
+        "description": "Online travel booking",
+        "payee": "TravelSite-2",
+        "amount": 21964.05,
+        "channel": "ONLINE",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0095",
+        "date": "2025-08-06T09:27:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 1082.63,
+        "channel": "ATM",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1005-T0096",
+        "date": "2025-08-06T11:21:00",
+        "description": "Payment to Merchant-4",
+        "payee": "Merchant-2",
+        "amount": 1075.16,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1005-T0097",
+        "date": "2025-08-07T18:03:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 1210.67,
+        "channel": "UPI",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1005-T0098",
+        "date": "2025-08-08T10:14:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 1490.95,
+        "channel": "POS",
+        "category": "fuel"
+      },
+      {
+        "txn_id": "CUST-1005-T0099",
+        "date": "2025-08-09T15:34:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 981.17,
+        "channel": "POS",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1005-T0100",
+        "date": "2025-08-10T12:18:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 1172.38,
+        "channel": "NEFT",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0101",
+        "date": "2025-08-13T16:15:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-5",
+        "amount": 1024.15,
+        "channel": "ONLINE",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1005-T0102",
+        "date": "2025-08-14T15:24:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 2419.28,
+        "channel": "ATM",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1005-T0103",
+        "date": "2025-08-15T17:51:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-4",
+        "amount": 805.23,
+        "channel": "UPI",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1005-T0104",
+        "date": "2025-08-16T19:06:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 1607.99,
+        "channel": "NEFT",
+        "category": "groceries"
+      },
+      {
+        "txn_id": "CUST-1005-T0105",
+        "date": "2025-08-18T19:40:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-4",
+        "amount": 1950.57,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1005-T0107",
+        "date": "2025-08-19T14:02:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 1226.84,
+        "channel": "POS",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1005-T0118",
+        "date": "2025-08-19T18:00:00",
+        "description": "Large fund transfer",
+        "payee": "Payee-NEW-LARGE",
+        "amount": 185000.0,
+        "channel": "NEFT",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1005-T0106",
+        "date": "2025-08-19T19:43:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-1",
+        "amount": 1477.21,
+        "channel": "UPI",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1005-T0108",
+        "date": "2025-08-20T17:58:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-4",
+        "amount": 2222.16,
+        "channel": "UPI",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0119",
+        "date": "2025-08-21T00:00:00",
+        "description": "Online travel booking",
+        "payee": "TravelSite-1",
+        "amount": 25813.05,
+        "channel": "ONLINE",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0110",
+        "date": "2025-08-21T09:48:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-1",
+        "amount": 971.18,
+        "channel": "POS",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1005-T0109",
+        "date": "2025-08-21T15:20:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-4",
+        "amount": 1789.67,
+        "channel": "POS",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1005-T0111",
+        "date": "2025-08-23T21:43:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-5",
+        "amount": 872.11,
+        "channel": "POS",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1005-T0112",
+        "date": "2025-08-24T15:30:00",
+        "description": "Payment to Merchant-2",
+        "payee": "Merchant-5",
+        "amount": 830.41,
+        "channel": "ONLINE",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1005-T0113",
+        "date": "2025-08-24T20:25:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-3",
+        "amount": 1841.17,
+        "channel": "ONLINE",
+        "category": "dining"
+      },
+      {
+        "txn_id": "CUST-1005-T0114",
+        "date": "2025-08-25T09:07:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-1",
+        "amount": 811.33,
+        "channel": "NEFT",
+        "category": "shopping"
+      },
+      {
+        "txn_id": "CUST-1005-T0115",
+        "date": "2025-08-26T17:35:00",
+        "description": "Payment to Merchant-1",
+        "payee": "Merchant-3",
+        "amount": 1194.21,
+        "channel": "ONLINE",
+        "category": "transfer"
+      },
+      {
+        "txn_id": "CUST-1005-T0116",
+        "date": "2025-08-26T20:26:00",
+        "description": "Payment to Merchant-5",
+        "payee": "Merchant-2",
+        "amount": 1769.72,
+        "channel": "ONLINE",
+        "category": "utilities"
+      },
+      {
+        "txn_id": "CUST-1005-T0121",
+        "date": "2025-08-27T00:00:00",
+        "description": "Online travel booking",
+        "payee": "TravelSite-3",
+        "amount": 29743.81,
+        "channel": "ONLINE",
+        "category": "travel"
+      },
+      {
+        "txn_id": "CUST-1005-T0117",
+        "date": "2025-08-27T18:53:00",
+        "description": "Payment to Merchant-3",
+        "payee": "Merchant-2",
+        "amount": 1143.77,
+        "channel": "POS",
+        "category": "utilities"
+      }
+    ]
+  }
+]
